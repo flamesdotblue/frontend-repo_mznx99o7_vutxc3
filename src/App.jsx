@@ -2,12 +2,14 @@ import Hero from './components/Hero';
 import FeaturesGrid from './components/FeaturesGrid';
 import CanvasPreview from './components/CanvasPreview';
 import UploadTypes from './components/UploadTypes';
+import UploadPanel from './components/UploadPanel';
 
 function App() {
   return (
     <div className="min-h-screen bg-white antialiased">
       <Hero />
       <UploadTypes />
+      <UploadPanel />
       <CanvasPreview />
       <FeaturesGrid />
 
